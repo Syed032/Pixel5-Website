@@ -25,7 +25,7 @@ body {
     box-shadow: 0 0 30px rgba(0, 0, 0, .2);
 }
 
-.form {
+.form-Login {
     position: absolute;
     right: 0;
     width: 50%;
@@ -33,23 +33,26 @@ body {
     background: black;
     display: flex;
     align-items: center;
-    color: white;text-align: center;
+    color: white;
+    text-align: center;
     padding: 40px;
 }
-form{
+
+form {
     width: 100%;
 }
-.container h1{
+
+.container h1 {
     font-size: 36px;
     margin: -10px 0;
 }
 
-.input{
+.input {
     position: relative;
     margin: 30px 0;
 }
 
-.input input{
+.input input {
     width: 100%;
     padding: 13px 50px 13px 20px;
     background: #eee;
@@ -60,12 +63,13 @@ form{
     color: #333;
     font-weight: 500;
 }
-.input input::placeholder{
+
+.input input::placeholder {
     color: #121111;
-    font-weight:400;
+    font-weight: 400;
 }
 
-.input i{
+.input i {
     position: absolute;
     right: 20px;
     top: 50%;
@@ -73,16 +77,17 @@ form{
     color: #53555c;
 }
 
-.forgot{
+.forgot {
     margin: -15px 0 15px;
 }
 
-.forgot a{
+.forgot a {
     font-size: 14.5px;
     color: #53555ca2;
     text-decoration: none;
 }
-.btn{
+
+.btn {
     width: 100%;
     height: 48px;
     background: linear-gradient(90deg, #eaa166, #53555c);
@@ -95,12 +100,12 @@ form{
     font-weight: 600;
 }
 
-.container p{
+.container p {
     font-size: 14.5px;
     margin: 15px 0;
 }
 
-.social a{
+.social a {
     display: inline-flex;
     padding: 10px;
     border: 2px solid #ccc;
@@ -109,4 +114,28 @@ form{
     color: #fff;
     text-decoration: none;
     margin: 0 8px;
+}
+
+.form-Reg {
+    visibility: hidden;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: black;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 40px;
+
+}
+.cont{
+    visibility: hidden;
+    position: relative;
+    width: 850px;
+    height: 550px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .2); 
 }
