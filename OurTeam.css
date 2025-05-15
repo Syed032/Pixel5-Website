@@ -8,6 +8,7 @@ body {
 .team h1 {
   font-weight: 700;
   text-transform: uppercase;
+  color: bisque;
   font-size: 48px;
 }
 
