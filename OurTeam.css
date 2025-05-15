@@ -8,13 +8,13 @@ body {
 .team h1 {
   font-weight: 700;
   text-transform: uppercase;
-  color: bisque;
+  color: #fff;
   font-size: 48px;
 }
 
 .team p
 {
-  color: bisque;
+  color:#fff;
   text-align: justify ;
 }
 
@@ -57,7 +57,7 @@ body {
 .details h3 {
   margin: 0;
   font-size: 18px;
-  color: bisque;
+  color: #fff;
   font-weight: 600;
 }
 
