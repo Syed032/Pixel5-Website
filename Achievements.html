@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Achivements</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
       background-color: #f8f9fa;
     }
+
     .profile-card img {
       width: 100px;
       height: 100px;
@@ -15,30 +22,66 @@
       border-radius: 50%;
       margin-bottom: 15px;
     }
-  
-    .card{
+
+    .card {
       background-color: burlywood;
     }
-    
   </style>
 </head>
+
 <body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">DheeCodingLab</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="courses.html">Courses<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="OurTeam.html">Team<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="Achievements.html">Placements<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="Register/Login.html">Log In<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="Register/Reg.html">Register<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+        <form class="form-inline ml-auto">
+          <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
 
   <div class="container py-5">
     <h1 class="mb-4 text-center">Success Story</h1>
     <div class="row g-4 justify-content-center">
 
-      
+
       <div class="col-md-4 col-sm-6">
         <div class="card text-center p-3 profile-card">
           <img src="static/images/Neha.jpeg" alt="Neha" class="mx-auto">
           <h5 class="card-title mt-2">Neha</h5>
           <p class="card-text">Company Name:Microsoft</p>
-           <p class="card-text">package:10LPA</p>
-            <p class="card-text">I have done my intership at DCL for 6 months with great support and they make us to understand topics very well and it is great opprtunity for me.</p>
+          <p class="card-text">package:10LPA</p>
+          <p class="card-text">I have done my intership at DCL for 6 months with great support and they make us to
+            understand topics very well and it is great opprtunity for me.</p>
         </div>
       </div>
-      
+
 
       <!-- user 2 -->
       <div class="col-md-4 col-sm-6">
@@ -47,8 +90,10 @@
           <h5 class="card-title mt-2">Kushidivya</h5>
           <p class="card-text">Comapny Name:Meta</p>
           <p class="card-text">package:12LPA</p>
-          <p class="card-text">I am Kushi completed my intership at DCL and got selected to great company with support of DCL trainers.DCL trainers will take care of each and everyone. It is the great opportunity for the students to get trained by experience people.</p>
-          
+          <p class="card-text">I am Kushi completed my intership at DCL and got selected to great company with support
+            of DCL trainers.DCL trainers will take care of each and everyone. It is the great opportunity for the
+            students to get trained by experience people.</p>
+
         </div>
       </div>
 
@@ -58,8 +103,9 @@
           <h5 class="card-title mt-2">Syed Abdul Rehman</h5>
           <p class="card-text">Comapny Name:Google</p>
           <p class="card-text">package:15LPA</p>
-          <p class="card-text">The company culture is supportive, and the projects helped me build confidence in my technical abilities and they made us to do real-time projects with hands on experience.</p>
-          
+          <p class="card-text">The company culture is supportive, and the projects helped me build confidence in my
+            technical abilities and they made us to do real-time projects with hands on experience.</p>
+
         </div>
       </div>
 
@@ -69,8 +115,9 @@
           <h5 class="card-title mt-2">Priyanshu D Patel</h5>
           <p class="card-text">Comapny Name:Kyoto Animation</p>
           <p class="card-text">package:10LPA</p>
-          <p class="card-text">In a DCL, i have learnt a lot in a short time, great environment and guidance. Higly recommended for anyone looking to grow as a developer. </p>
-          
+          <p class="card-text">In a DCL, i have learnt a lot in a short time, great environment and guidance. Higly
+            recommended for anyone looking to grow as a developer. </p>
+
         </div>
       </div>
 
@@ -80,15 +127,29 @@
           <h5 class="card-title mt-2">Chandana H M</h5>
           <p class="card-text">Comapny Name:Solera</p>
           <p class="card-text">package:7.2LPA</p>
-          <p class="card-text">It was a great experience learning full-stack development in a practical environment. Highly recommended for the students who are looking for great platform to do their intership.</p>
-          
+          <p class="card-text">It was a great experience learning full-stack development in a practical environment.
+            Highly recommended for the students who are looking for great platform to do their intership.</p>
+
         </div>
       </div>
 
-      
+
 
     </div>
   </div>
 
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
 </body>
+
 </html>
