@@ -12,6 +12,12 @@ body {
   font-size: 48px;
 }
 
+.team p
+{
+  color: bisque;
+  text-align: justify ;
+}
+
 .team-member {
   position: relative;
   overflow: hidden;
@@ -51,6 +57,7 @@ body {
 .details h3 {
   margin: 0;
   font-size: 18px;
+  color: bisque;
   font-weight: 600;
 }
 
