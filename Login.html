@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="Login.css" />
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="index.html">DheeCodingLab</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="OurTeam.html">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Achievements.html">Placements</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Login.html">Log In</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Reg.html">Register</a></li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="login-wrapper mt-4">
+        <div class="login-left">
+            <h1>Hello, Welcome!</h1>
+            <p>Don't have an account?</p>
+            <button type="submit" class="RegBtn"><a class="nav-link" href="Reg.html">Register</a></button>
+        </div>
+        <div class="login-right">
+            <form>
+                <h1>Login</h1>
+                <div class="input-group-custom">
+                    <input type="text" placeholder="Username" required />
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="input-group-custom">
+                    <input type="password" placeholder="Password" required />
+                    <i class="fas fa-lock"></i>
+                </div>
+                <div class="forgot">
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn-login"><a class="nav-link" href="courses.html">Login</a></button>
+                <p class="text-center mb-2">or login with social platforms</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-google"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
