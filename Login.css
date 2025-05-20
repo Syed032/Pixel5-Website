@@ -6,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient(90deg, #eaa166, #53555c);
+    background: linear-gradient(90deg, white, #53555c);
     padding-top: 90px;
 }
 
@@ -48,7 +48,7 @@ body {
 }
 
 .RegBtn {
-    background: linear-gradient(90deg, #eaa166, #53555c);
+    background: linear-gradient(90deg, white, #53555c);
     color: white;
     border: none;
     padding: 12px 25px;
@@ -104,7 +104,7 @@ body {
 }
 
 .btn-login {
-    background: linear-gradient(90deg, #eaa166, #53555c);
+    background: linear-gradient(90deg, white, #53555c);
     color: white;
     border: none;
     padding: 12px;

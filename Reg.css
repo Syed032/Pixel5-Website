@@ -13,7 +13,8 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(90deg, #53555c, #eaa166);
+    background: linear-gradient(90deg, #53555c,white
+    );
 }
 
 .form-Reg {
@@ -93,7 +94,7 @@ form {
 .btn {
     width: 100%;
     height: 48px;
-    background: linear-gradient(90deg, #eaa166, #53555c);
+    background: linear-gradient(90deg, white, #53555c);
     border-radius: 8px;
     box-shadow: 1px 1px 10px whitesmoke;
     border: none;
