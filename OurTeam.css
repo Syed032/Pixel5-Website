@@ -1,27 +1,28 @@
 body {
   margin: 0;
   padding: 0;
-  background: #262626;
+  background: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .team h1 {
   font-weight: 700;
   text-transform: uppercase;
-  color: #fff;
+  color: black;
   font-size: 48px;
 }
 
 .team p
 {
-  color:#fff;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
   text-align: justify ;
 }
 
 .team-member {
   position: relative;
   overflow: hidden;
-  background: #fff;
+  background: black;
   border-radius: 10px;
   transition: transform 0.3s, z-index 0s;
   z-index: 1;
