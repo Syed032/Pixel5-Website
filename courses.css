@@ -6,6 +6,11 @@
     padding: 20px;
     background-color: #f4f4f4;
 }
+.btn.btn-outline-success:hover {
+    background-color: grey;
+    color: black;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;

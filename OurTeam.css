@@ -4,6 +4,10 @@ body {
   background: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.btn.btn-outline-success:hover {
+  background-color: grey;
+  color: black;
+}
 
 .team h1 {
   font-weight: 700;
